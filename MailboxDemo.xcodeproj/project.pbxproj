@@ -14,6 +14,9 @@
 		505295241D0130F800940DB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505295221D0130F800940DB2 /* LaunchScreen.storyboard */; };
 		5052952F1D0130F800940DB2 /* MailboxDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5052952E1D0130F800940DB2 /* MailboxDemoTests.swift */; };
 		5052953A1D0130F800940DB2 /* MailboxDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505295391D0130F800940DB2 /* MailboxDemoUITests.swift */; };
+		505295481D01328800940DB2 /* MailboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505295471D01328800940DB2 /* MailboxViewController.swift */; };
+		5052954A1D01422A00940DB2 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505295491D01422A00940DB2 /* Common.swift */; };
+		50D4D2AF1D03D4D700EFA60A /* ReadMe.md in Sources */ = {isa = PBXBuildFile; fileRef = 50D4D2AE1D03D4D700EFA60A /* ReadMe.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		505295351D0130F800940DB2 /* MailboxDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MailboxDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		505295391D0130F800940DB2 /* MailboxDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailboxDemoUITests.swift; sourceTree = "<group>"; };
 		5052953B1D0130F800940DB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		505295471D01328800940DB2 /* MailboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailboxViewController.swift; sourceTree = "<group>"; };
+		505295491D01422A00940DB2 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		50D4D2AE1D03D4D700EFA60A /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,7 @@
 				505295171D0130F800940DB2 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		505295171D0130F800940DB2 /* Products */ = {
 			isa = PBXGroup;
@@ -100,9 +107,12 @@
 				505295191D0130F800940DB2 /* AppDelegate.swift */,
 				5052951B1D0130F800940DB2 /* ViewController.swift */,
 				5052951D1D0130F800940DB2 /* Main.storyboard */,
+				505295491D01422A00940DB2 /* Common.swift */,
+				505295471D01328800940DB2 /* MailboxViewController.swift */,
 				505295201D0130F800940DB2 /* Assets.xcassets */,
 				505295221D0130F800940DB2 /* LaunchScreen.storyboard */,
 				505295251D0130F800940DB2 /* Info.plist */,
+				50D4D2AE1D03D4D700EFA60A /* ReadMe.md */,
 			);
 			path = MailboxDemo;
 			sourceTree = "<group>";
@@ -256,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5052954A1D01422A00940DB2 /* Common.swift in Sources */,
 				5052951C1D0130F800940DB2 /* ViewController.swift in Sources */,
 				5052951A1D0130F800940DB2 /* AppDelegate.swift in Sources */,
+				505295481D01328800940DB2 /* MailboxViewController.swift in Sources */,
+				50D4D2AF1D03D4D700EFA60A /* ReadMe.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +495,7 @@
 				505295401D0130F800940DB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		505295411D0130F800940DB2 /* Build configuration list for PBXNativeTarget "MailboxDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +504,7 @@
 				505295431D0130F800940DB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		505295441D0130F800940DB2 /* Build configuration list for PBXNativeTarget "MailboxDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +513,7 @@
 				505295461D0130F800940DB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
