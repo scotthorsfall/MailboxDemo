@@ -43,7 +43,7 @@ Time spent: 10 hours
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
 1. Best practice to implement the Segmented Control in the nav - would this be embedded in a tab controller? Or is everything done in one view controller?
-2. 
+2. Generating a list view with the messages with real objects - with data and states (read/unread)
 
 ### Video Walkthrough 
 
